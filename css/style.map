@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		".colortext {\n    font-size: 40px;\n    color: #ffff21;\n    &_alo {\n        font-size: 55px;\n        color: #aaa233; } }\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CAGS;;;AAFtB,AAAD,cAAK,CAAC;EACF,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CAAG"
+}
