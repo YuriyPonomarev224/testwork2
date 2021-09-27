@@ -1,6 +1,6 @@
 .promo {
     min-height: 1070px;
-    padding: 23px 0 118px 0;
+    padding: 23px 0 0 0;
    	&__wrapper {
 		margin-top: 18px;
 		min-height: 667.8px;
@@ -58,10 +58,26 @@
 	}
 
 	&__download {
+		margin: 83.2px 0 24.67px 0;
+		max-width: 1240px;
+		flex-wrap: wrap;
 		display: flex;
 		justify-content: space-between;
+		align-items:center;
 		color: #FFFFFF;
-		
-	}
-
+		&_text {
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 35px;
+			line-height: 70px;
+		}
+	}	
+	&__links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 376px;
+		margin-right: 62px;
+		}
 }

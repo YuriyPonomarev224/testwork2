@@ -1,0 +1,50 @@
+.mission {
+    margin: 0 auto;
+    min-height: 1400px;
+    &__contact_us {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 61px;
+        max-width: 1087px;
+        max-height: 312px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 41px;
+        color: #ffffff;
+    }
+    &__item {
+        position: relative;
+        width: 503px;
+        height: 312px;
+        border-radius: 21.3671px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        &_text {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom:0;
+            left:0;
+            margin: auto;
+            overflow: auto;
+            width: 375px;
+            height: 186px;
+        
+            
+            a {
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 33px;
+                text-decoration-line: underline;
+                color:#ffffff;
+                &:hover {
+                    color: #9e9ef3;
+                }
+            }
+        }
+        }
+    
+}
