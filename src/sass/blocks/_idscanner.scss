@@ -1,0 +1,24 @@
+.idscanner {
+    margin: 0 auto;
+    min-height: 1339px;
+    color: #ffffff;
+    background:url(../../image/idscanner_bg.svg) center top no-repeat;
+    &__content {
+        padding-top: 467px;
+        display: flex;
+        flex-wrap:wrap-reverse;
+    }
+    &__screenshot {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        width: 714.56px;
+        justify-items: center;
+        justify-self: center;
+        
+
+    }
+    &__app {
+        margin-bottom: 55px;
+    }
+}

@@ -8,7 +8,7 @@
         margin: auto;
         margin-top: 61px;
         max-width: 1087px;
-        max-height: 312px;
+        min-height: 312px;
         font-family: Noto Sans;
         font-style: normal;
         font-weight: bold;
@@ -47,4 +47,39 @@
         }
         }
     
+    &__content {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 246px;
+        margin-bottom: 283px;
+        display: flex;
+        flex-wrap:wrap-reverse;
+        
+    }
+    &__app {
+        width: 919.06px;
+        height: 498px;
+        background: url(../../image/our_mission.svg) center;
+    }
+    &__description {
+        color: #ffffff;
+        max-width:  358px;
+        padding-bottom: 163px;
+        h2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 51px;
+            line-height: 62px;          
+        }
+        p {
+            margin-top: 23px;
+            max-width: 315px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
 }
