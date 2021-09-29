@@ -6,7 +6,8 @@
     &__content {
         padding-top: 467px;
         display: flex;
-        flex-wrap:wrap-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
     }
     &__screenshot {
         display: flex;
@@ -20,5 +21,28 @@
     }
     &__app {
         margin-bottom: 55px;
+    }
+    &__description {
+        max-width: 315px;
+        padding-bottom: 78px;
+        margin-right: 78px;
+        margin-bottom: 55px;
+        h2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 51px;
+            line-height: 62px;
+            margin-bottom: 23px;
+        }
+
+        p {
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+
+        }
     }
 }

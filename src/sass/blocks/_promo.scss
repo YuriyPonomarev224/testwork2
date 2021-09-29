@@ -16,7 +16,14 @@
         color: #FFFFFF;
         
     }
-
+		
+	
+	&__ellipse {
+		position: absolute;
+		left: -100px;
+		top: 250px;
+		z-index: -1;
+	}
     &__header {
 		margin-top: 125px;
 		margin-bottom: 0;
