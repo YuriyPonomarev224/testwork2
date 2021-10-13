@@ -126,4 +126,32 @@
         }
     }
 
+    &__download {
+        margin: 91px auto 0 auto;
+        color: #fff;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+        text-align: center;
+    }
+    &__links {
+        margin: 32.73px auto 0 auto;
+        max-width: 610.13px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+
+    &__store {
+        margin-bottom: 24px;
+        &:hover {
+            background-color:hsl(216, 85%, 63%);
+            border-radius: 12px;
+        }
+    }
+
 }
