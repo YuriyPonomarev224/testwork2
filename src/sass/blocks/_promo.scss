@@ -2,15 +2,15 @@
     min-height: 1070px;
     padding: 23px 0 0 0;
    	&__wrapper {
+		position: relative;
 		margin-top: 18px;
 		min-height: 667.8px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         
     }
 
     &__description {
-		position: relative;
         max-width: 644px;
         min-height: 669px;
         color: #FFFFFF;
@@ -58,10 +58,11 @@
 	}
 
 	&__app {
+		position: relative;
 		width: 332.88px;
 		height: 667.8px;
 		background: url(../../image/scrt_1.svg);
-		margin-right: 83.12px;
+		margin-left: 180px;
 	}
 
 	&__download {
@@ -87,4 +88,16 @@
 		width: 376px;
 		margin-right: 62px;
 		}
+	
+	&__vector {
+		position: absolute;
+		width: 662.63px;
+		height: 783.03px;
+		top: -300px;
+		right: -50px;
+		background: rgba(250, 0, 255, 0.2);
+		filter: blur(250px);
+		transform: rotate(-105.26deg);
+		z-index: -1;
+	}
 }

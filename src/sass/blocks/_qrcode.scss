@@ -45,9 +45,14 @@
         justify-content: space-between;
         width: 376px;
         margin-bottom: 30px;
+        
     }
     &__store {
         margin-bottom: 23px;
+        &:hover {
+            background:rgb(89, 152, 247) ;
+            border-radius: 12px;
+        }
     }
     &__nightlike {
         position: relative;
