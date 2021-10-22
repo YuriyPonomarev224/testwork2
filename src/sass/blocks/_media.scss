@@ -1,0 +1,293 @@
+@media (max-width:1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+    .header {
+        padding: 0 15px;
+
+        &__logo {
+            width: 102px;
+            height: 62px;
+        }
+
+        &__login { 
+            font-size: 14px;
+            line-height: 19px;
+            img {
+                display: none;
+            }
+        }
+    }
+
+    .promo {
+        min-height: 0px;
+        &__header {
+            font-size: 35px;
+            line-height: 40px;
+            
+            margin-top: 33px;
+        }
+
+        &__app {
+            width: 105px;
+            height: 322px;
+            margin-left: 0px;
+            background-size: cover;
+        }
+        &__subheader_line {
+            display: none;
+        }
+
+        &__wrapper {
+            margin-top: 72px;
+            justify-content: space-between;
+        }
+
+        &__description {
+            max-width: 260px;
+            padding-left: 15px;
+            min-height: 0px;
+        }
+
+        &__subheader {
+            margin: 24px 0 0 0;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        &__download {
+            max-width: 283px;
+            margin: 55.02px auto 0 auto;
+        }
+
+        &__download_text {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        &__links {
+            flex-direction: column;
+            width: 185px;
+            margin: 34px auto 0 auto;
+        }
+
+        &__store {
+            height: 60px;
+            width: 185px;
+            margin-bottom: 24px;
+            img {
+                width: 100%;
+            }
+        }
+
+        &__ellipse {
+            width: 74px;
+            height: 74px;
+            top: 160px;
+            left: -4px;
+        }
+
+        &__vector {
+            width: 363.95px;
+            height: 298.16px;
+            transform: rotate(-90.69deg);
+            top: -80.39px;
+            right: 0px;
+            filter: blur(100px);
+        }
+    }
+
+    .mission {
+        
+        .two {
+            width: 345px;
+            height: 167px;
+        }
+        min-height: 0;
+        &__contact_us {
+            justify-content: center;
+        }
+        &__item {
+            width: 345px;
+            height: 233px;
+            margin-bottom: 30px;
+            
+            &_text {
+                font-size: 24px;
+                line-height: 33px;
+                padding-left: 33px;
+                padding-top: 10px;
+                a {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+            }
+        }
+
+        &__content {
+            margin-top: 80px;
+            margin-bottom: 190px;
+        }
+
+        &__description {
+            margin-left: 15px;
+            padding-bottom: 0px;
+            h2 {
+                font-size: 24px;
+                line-height: 29px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+
+        &__ellipse {
+            width: 85px;
+            height: 85px;
+            top: -30px;
+            left: -9px;
+        }
+
+        &__app {
+            margin: 163px auto 0 auto;
+            width: 172.53px;
+            height: 346.12px;
+            background:url(../../image/app_mission_mobilev.svg) center;
+        }
+    }
+
+    .idscanner {
+        min-height: 0px;
+        background-size: 120%;
+
+        &__content {
+            padding-top: 227px;
+        }
+        &__description {
+            margin: 0 0 0 15px;
+            max-width: 345px;
+            padding-bottom: 70.1px;
+            h2 {
+                font-size: 24px;
+                line-height: 29px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+
+        &__screenshot {
+            justify-content: center;
+        }
+
+        &__app {
+            width: 287.08px;
+            height: 575.93px;
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .bitool {
+        min-height: 0;
+        &__description {
+            margin: 89px 0 0 15px;
+            padding-left: 0px;
+            h2 {
+                font-size: 24px;
+                line-height: 29px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 30px;
+
+            }
+        }
+        &__view {
+            width: 373px;
+            height: 246.18px;
+            background: url(../../image/bi_tool_items_mobile.png) center ;
+            margin-bottom: 34.83px;
+            margin-right: 0px;
+        }
+    }
+
+
+
+    .qrcode {
+        min-height: 0px;
+        max-width: 390px;
+        &__description {
+            min-height: 0;
+            &_content {
+                padding-top: 227px;
+                h2 {
+                    padding-left: 15px;
+                    font-size: 24px;
+                    line-height: 29px;
+                    margin-bottom: 24px;
+                }
+                p {
+                    padding-left: 15px;
+                    font-size: 16px;
+                    line-height: 22px;
+                    margin: 0 0 50px 0;
+                }
+            }
+
+        }
+
+        &__links {
+            flex-direction: column;
+            align-content: center;
+            margin-bottom: 10px;
+        }
+        &__store {
+            height: 60px;
+            width: 185px;
+            margin-bottom: 24px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .banner {
+        display: none;
+    }
+    .generate {
+        display: none;
+    }
+    .ordering {
+         display: none;
+     }
+    .form {
+        display: none;
+    }
+    .footer {
+         display: none;
+    }
+}
+

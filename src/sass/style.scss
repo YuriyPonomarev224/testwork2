@@ -7,6 +7,17 @@ body {
     max-width: 1240px;
     margin: 0 auto;
 }
+
+@font-face {
+    font-family: 'Avenir LT Light';
+    src: url('../fonts/AvenirLT-Light.eot');
+    src: url('../fonts/AvenirLT-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLT-Light.woff') format('woff'),
+    url('../fonts/AvenirLT-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/mission';
@@ -18,13 +29,5 @@ body {
 @import 'blocks/banner';
 @import 'blocks/form';
 @import 'blocks/footer';
+@import 'blocks/media';
 
-@font-face {
-    font-family: 'Avenir LT Light';
-    src: url('../fonts/AvenirLT-Light.eot');
-    src: url('../fonts/AvenirLT-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLT-Light.woff') format('woff'),
-    url('../fonts/AvenirLT-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }

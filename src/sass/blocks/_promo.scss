@@ -4,7 +4,6 @@
    	&__wrapper {
 		position: relative;
 		margin-top: 18px;
-		min-height: 667.8px;
         display: flex;
         justify-content: flex-start;
         
@@ -14,15 +13,20 @@
         max-width: 644px;
         min-height: 669px;
         color: #FFFFFF;
+		position: relative;
         
     }
 		
 	
 	&__ellipse {
 		position: absolute;
-		left: -100px;
-		top: 250px;
+		left: -7px;
+		top: 360px;
 		z-index: -1;
+		width: 125px;
+		height: 125px;
+		background: rgba(96, 92, 234, 0.5);
+		filter: blur(50px);
 	}
     &__header {
 		margin-top: 125px;
@@ -61,7 +65,7 @@
 		position: relative;
 		width: 332.88px;
 		height: 667.8px;
-		background: url(../../image/scrt_1.svg);
+		background: url(../../image/scrt_1.svg) no-repeat;
 		margin-left: 180px;
 	}
 
