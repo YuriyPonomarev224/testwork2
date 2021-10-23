@@ -36,7 +36,6 @@
         flex-wrap: wrap;
         justify-content: flex-end;
         width: 901px;
-        height: 667px;
     }
     &__item {
         font-family: Montserrat;
@@ -47,9 +46,9 @@
         margin: 196px 0 0 43.44px;
         p {
             margin-left: 86px;
+            margin-top: 10px;
         }
     }
-
     &__description {
         margin-top: 79.85px;
         display: flex;
