@@ -1,0 +1,75 @@
+.generate {
+    margin: 0 auto;
+    color: #ffffff;
+    background: url(../../image/generate_bg.svg) no-repeat;
+    background-position: center 150.07px;
+    min-height: 1105px;
+    .container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    &__rectangle{
+        margin: auto;
+        max-width: 1022.45px;
+        height: 952px;
+        position: absolute;
+        background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+        opacity: 0.15;
+        filter: blur(311.569px);
+        border-radius: 476.034px;
+        transform: rotate(-0.55deg);
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    &__wrapper {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 41.85px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 901px;
+    }
+    &__item {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 26px;
+        margin: 196px 0 0 43.44px;
+        p {
+            margin-left: 86px;
+            margin-top: 10px;
+        }
+    }
+    &__description {
+        margin-top: 79.85px;
+        display: flex;
+        max-width:1240px;
+        justify-content: space-between;
+    }
+    &__h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 51px;
+        line-height: 62px;
+    }
+
+    &__p {
+        margin-top: 37px;
+        max-width: 292px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}  

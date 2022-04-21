@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 408px;
+
+    &__logo {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__login {
+        
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 14px;
+        }
+        a {
+            display: inline-block;
+            vertical-align: middle;
+            text-decoration: none;
+            border-bottom: 1px solid white;
+            padding-bottom: 1px;
+            &:active {
+                color: #ffffff;
+            }
+            &:visited {
+                color: #ffffff;
+            }
+            &:hover {
+                color:#9e9ef3;
+            }
+        }
+        
+    }
+}

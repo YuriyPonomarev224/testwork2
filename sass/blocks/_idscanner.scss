@@ -1,0 +1,49 @@
+.idscanner {
+    margin: 0 auto;
+    min-height: 1339px;
+    color: #ffffff;
+    background:url(../../image/idscanner_bg.svg) center top no-repeat;
+    &__content {
+        padding-top: 467px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap-reverse;
+    }
+    &__screenshot {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        width: 714.56px;
+        justify-items: center;
+        justify-self: center;
+        
+
+    }
+    &__app {
+        margin-bottom: 55px;
+    }
+    &__description {
+        max-width: 315px;
+        padding-bottom: 78px;
+        margin-right: 78px;
+        margin-bottom: 55px;
+        h2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 51px;
+            line-height: 62px;
+            margin-bottom: 23px;
+        }
+
+        p {
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+
+        }
+    }
+}
